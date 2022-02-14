@@ -3,6 +3,7 @@ import Footer from '../components/Footer';
 import { useRouter } from 'next/router';
 import { format } from 'date-fns';
 import InfoCard from '../components/infoCard';
+import Map from '../components/Map';
 
 function Search({searchResults}) {
   const router = useRouter();
@@ -39,6 +40,10 @@ function Search({searchResults}) {
           ))}
           </div>
         </section>
+        {/* <section className="min-w-[600px]">
+          <Map/>
+        </section> */}
+        <iframe  width='800px' height='2120px' src="https://api.mapbox.com/styles/v1/gabrielsolomon196/ckzao3h68000015pejxzcwr8z.html?title=false&access_token=pk.eyJ1IjoiZ2FicmllbHNvbG9tb24xOTYiLCJhIjoiY2t6YW5pdHRjMGVncTJ2a3V2eTFwcXAzciJ9.UnMzkKBRgD5rZaU5ORiRVg&zoomwheel=false#11.68/37.5808/-122.3584" title="Streets"></iframe>
       </main>
       <Footer/>
     </div>
