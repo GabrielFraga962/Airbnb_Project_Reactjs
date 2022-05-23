@@ -1,6 +1,6 @@
-# Airbnb_Project_Reactjs
+# Website Design Using HTML CSS & JavaScript
 
 ---
 
- - Construção e deploy da aplicação Airbnb clone app
+ - Construção e deploy da aplicação Web Site Responsivo
 
